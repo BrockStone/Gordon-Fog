@@ -1,0 +1,11 @@
+#main-header {
+    background:url("../media/images/guitar-neck.png") no-repeat;
+	-webkit-background-size: 100%;
+  	-moz-background-size: 100%;
+  	-o-background-size: 100%;
+  	background-size: 100%;
+ 	height: 1000px;
+}
+#welcome-logo{
+	padding: 150px;
+}
