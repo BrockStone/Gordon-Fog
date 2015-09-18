@@ -28,6 +28,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    margin: 25px 0px 55px;
 }
 
 p {
@@ -122,6 +123,33 @@ a:focus {
     color: #fff;
 }
 
+
+.lg-title{
+    font-size: 3em;
+}
+
+.sm-title{
+    font-size: 1.3em;
+}
+
+
+#about{
+    background: url(../img/bw-crew.jpg)no-repeat;
+    
+    padding: 150px 0px;
+}
+
+#contact{
+     padding: 150px 0px;
+}
+
+
+
+
+
+
+
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -135,7 +163,6 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
 }
@@ -258,7 +285,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+ 
 }
 
 .download-section {
@@ -281,7 +308,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        
     }
 
     .download-section {
@@ -339,6 +366,7 @@ ul.banner-social-buttons {
         margin-bottom: 0;
     }
 }
+
 
 footer {
     padding: 50px 0;
